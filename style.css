@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+small{
+    margin-bottom: 1.5rem;
+}
+p{
+    max-width: 400px;
+}
+img{
+    height: 400px;
+    box-shadow: 2px 1px 5px 2px rgba(0,0,0,0.6);
+}
+
+input[type="checkbox"]{
+    display: none;
+
+}
+
+label.btn{
+    position: absolute;
+    bottom: 2vh;
+    left: 2vw;
+    z-index: 2;
+    border: 1px solid;
+}
+label.btn:hover{
+    background-color: #333;
+    color: #ddd
+
+}
+.animate{
+    animation: animation 1s ease-in;
+}
+@keyframes animation{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
