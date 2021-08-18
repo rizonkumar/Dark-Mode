@@ -1,6 +1,7 @@
 # Dark-Mode
 
-In this Mini-Project, I have created Dark Mode switch, This is actually really helpful for those who is busy at night and you can have that possibility to make your page to dark mode. 
+In this Simple-Project, I have created switch botton to switch from light to dark mode and vice-versa.
 I have used following elements- DOM, Variables, Function (Arrow Function), Conditional, DOM Elements & Loops.
 
+!Need to FIX!
 #To fix the error in EventListener function
